@@ -1,0 +1,32 @@
+section{
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 15%;
+}
+.titlePost{
+  width: 70%;
+}
+.titlePost h1{
+  font-size: 2.5em;
+}
+
+.imagePost img{
+  border-radius: 3px;
+  width: 70%;
+  height: 60%;
+}
+
+.bodyPost{
+  width: 70%;
+}
+
+.bodyPost p{
+  font-size: 1.3em;
+}
+
+a{
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #5cceee;
+  margin-bottom: 5px;
+}

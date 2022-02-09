@@ -1,0 +1,15 @@
+<section class="boxForm">
+  <h1>Criar Novo Post</h1>
+  <form>
+    <label for="title">Titulo</label>
+    <input [(ngModel)]="post.title" type="text" name="title" id="title" required>
+    <label for="image">URL Imagem</label>
+    <input  [(ngModel)]="post.image" type="text" name="image" id="image" required>
+    <label for="body">Texto</label>
+    <textarea  [(ngModel)]="post.body" required name="body" id="body" cols="30" rows="10"></textarea>
+    <div class="buttons">
+      <button class="buttonSave" (click)="create()">Salvar</button>
+      <button class="buttonCancel" (click)="cancel()">Cancelar</button>
+    </div>
+  </form>
+</section>

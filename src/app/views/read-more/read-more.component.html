@@ -1,0 +1,15 @@
+<section>
+  <div class="titlePost">
+    <h1>
+      {{post.title}}
+    </h1>
+    <p>{{post.createdAt | date:'MMM d, y, h:mm '}}</p>
+  </div>
+  <div class="imagePost">
+    <img src={{post.image}} alt={{post.title}}>
+  </div>
+  <div class="bodyPost">
+    <p>{{post.body}}</p>
+  </div>
+  <a routerLink="/">Voltar</a>
+</section>
